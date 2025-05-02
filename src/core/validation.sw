@@ -2,8 +2,8 @@ library;
 
 use ::core::errors::*;
 
-const MAX_DATA_TIMESTAMP_DELAY_SECONDS = 900; // 15 * 60
-const MAX_DATA_TIMESTAMP_AHEAD_SECONDS = 180; // 3 * 60
+const MAX_DATA_TIMESTAMP_DELAY_SECONDS = 60;
+const MAX_DATA_TIMESTAMP_AHEAD_SECONDS = 60;
 pub fn validate_timestamp(timestamp: u64, block_timestamp: u64) {
     if (block_timestamp > timestamp) {
         require(
