@@ -11,7 +11,7 @@ Write the following to your `Forc.toml` file:
 
 ```toml
 [dependencies]
-redstone = { git = "https://github.com/redstone-finance/redstone-fuel-sdk", tag = "testnet-0.65.2" }
+redstone = { git = "https://github.com/redstone-finance/redstone-fuel-sdk", tag = "v0.66.2" }
 ```
 
 To process a RedStone payload (with the structure defined [here](hhttps://docs.redstone.finance/img/payload.png))
